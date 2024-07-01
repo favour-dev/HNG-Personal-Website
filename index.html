@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <main>
-        <header>
-            <h1 data-testid="slackDisplayName">Favour Ebebeinwe</h1>
-            <img data-testid="slackProfilePicture" src="https://ca.slack-edge.com/T07466B189M-U07A1789NH0-98bfe7c6feef-512" alt="Slack Profile Picture" />
-        </header>
-        <section id="goals">
-            <h2>My Tech Goals for the Next 2 Years</h2>
-            <h3>Learning and Development</h3>
-            <h4>Year 1</h4>
-            <ul>
-                <li><h4>Frontend Mastery</h4>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Website</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <!-- Start of Name and Picture Section -->
+            <header>
+                <h1 data-testid="slackDisplayName">Favour Ebebeinwe</h1>
+                <img data-testid="slackProfilePicture" src="https://ca.slack-edge.com/T07466B189M-U07A1789NH0-98bfe7c6feef-512" alt="Slack Profile Picture" />
+            </header>
+            <!-- End of Name and Picture Section-->
+             <!-- Start of Tech Goals Section -->
+            <section id="goals">
+                <div>
+                    <h2>My Tech Goals for the Next 2 Years</h2>
+                </div>
+                <div>
+                    <h3>Learning and Development</h3>
+                    <h4>Year 1</h4>
                     <ul>
-                        <li>Learn HTML, CSS and Javascript.</li>
-                        <li>Learn and master a framework/library such as React.js or Vue.js.</li>
-                        <li>Practice and master frontend by building and deploying multiple responsive web applications.</li>
-                        <li>Improve proficiency with Git and GitHub and also contribute to open-source projects to gain collaborative coding experience.</li>
-                        <li>Explore more additional frammeworks such as Angular.</li>
-                        <li>Attend tech conferences, webinars and workshops to stay updated with the industry trends.</li>
+                        <li><h4>Frontend Mastery</h4>
+                            <ul>
+                                <li>Learn HTML, CSS and Javascript.</li>
+                                <li>Learn and master a framework/library such as React.js or Vue.js.</li>
+                                <li>Practice and master frontend by building and deploying multiple responsive web applications.</li>
+                                <li>Improve proficiency with Git and GitHub and also contribute to open-source projects to gain collaborative coding experience.</li>
+                                <li>Explore more additional frammeworks such as Angular.</li>
+                                <li>Attend tech conferences, webinars and workshops to stay updated with the industry trends.</li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-            <h4>Year 2</h4>
-            <ul>
-                <li><h4>Backend Mastery</h4>
+                    <h4>Year 2</h4>
                     <ul>
-                        <li>Explore and learn the Backend languages such as Node.js </li>
-                        <li>Learn about databases and how to integrate them with the backend services </li>
-                        <li>Build a full stack project to understand the full end to end development processes.</li>
-                        
+                        <li><h4>Backend Mastery</h4>
+                            <ul>
+                                <li>Explore and learn the Backend languages such as Node.js </li>
+                                <li>Learn about databases and how to integrate them with the backend services </li>
+                                <li>Build a full stack project to understand the full end to end development processes.</li>
+                                
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-        <div id="info">
-            <p data-testid="currentTimeUTC">Current Time in UTC: <span id="time"></span></p>
-            <p data-testid="currentDay">Current Day: <span id="day"></span></p>
-            <p data-testid="slackEmail">Slack Email: f.ebebeinwe@gmail.com</p>
-            <a data-testid="hngLink" href="http://hng.tech/learn">HNG Tech</a>
-            <a data-testid="keywordLink" href="http://keyword.dog">Keyword Dog</a>
-            <a data-testid="scrapeanywebLink" href="http://scrapeanyweb.site">Scrape Any Web</a>
-        </div>
-    </main>
-<script src="./script.js"></script>
-</body>
+                </div>
+                <!-- End of Tech Goals Section -->
+                <!-- Start of Date and Time Section -->
+                <div id="info">
+                    <p data-testid="currentTimeUTC">Current Time in UTC: <span id="time"></span></p>
+                    <p data-testid="currentDay">Current Day: <span id="day"></span></p>
+                    <p data-testid="slackEmail">Slack Email: f.ebebeinwe@gmail.com</p>
+                    <a data-testid="hngLink" href="http://hng.tech/learn">HNG Tech</a>
+                    <a data-testid="keywordLink" href="http://keyword.dog">Keyword Dog</a>
+                    <a data-testid="scrapeanywebLink" href="http://scrapeanyweb.site">Scrape Any Web</a>
+                </div>
+                 <!-- End of Date and Time Section -->
+        </main>
+        <script src="./script.js"></script>
+    </body>
 </html>
